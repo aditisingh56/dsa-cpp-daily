@@ -8,4 +8,11 @@ Includes problems from:
 
 ---
 
-## 📂 Folder Structure
+## 📂 Folder Structure 
+## 🚀 How to Run
+
+To compile and run a file:
+
+```bash
+g++ Arrays/unique.cpp -o unique.exe
+./unique.exe

@@ -1,18 +1,9 @@
-# dsa-cpp-daily
+# Aditi Singh – CSE Undergrad
 
-📘 **My daily C++ DSA practice solutions**  
-Includes problems from:
-- Apna College DSA Series
-- LeetCode
-- GeeksForGeeks (GFG)
+🚀 Passionate about full-stack development, software engineering, and AI.
 
----
+🔗 Connect with me:
+- LinkedIn: [linkedin.com/in/aditisingh](https://linkedin.com/in/aditisingh)
+- GitHub: [github.com/aditisingh56](https://github.com/aditisingh56)
 
-## 📂 Folder Structure 
-## 🚀 How to Run
-
-To compile and run a file:
-
-```bash
-g++ Arrays/unique.cpp -o unique.exe
-./unique.exe
+📁 This repo tracks my learning journey and showcases my key projects.

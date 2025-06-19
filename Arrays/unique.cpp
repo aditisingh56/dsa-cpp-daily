@@ -14,4 +14,4 @@ int main() {
     vector<int> nums = {4, 1, 2, 1, 2};
     cout << "Unique element is: " << findUnique(nums) << endl;
     return 0;
-}
+ }

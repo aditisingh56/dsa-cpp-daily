@@ -39,7 +39,7 @@ void findMajorityElement() {
     cout << "Enter " << n << " elements:\n";
     for (int i = 0; i < n; ++i) cin >> arr[i];
 
-    // Boyer-Moore Voting Algorithm
+    // Boyer-Moore Voting 
     int count = 0, candidate = -1;
     for (int num : arr) {
         if (count == 0) candidate = num;
@@ -82,6 +82,7 @@ void countPairSum() {
 
     cout << "Number of pairs with sum " << k << ": " << count << "\n";
 }
+
 
 void reverseArray() {
     int n;

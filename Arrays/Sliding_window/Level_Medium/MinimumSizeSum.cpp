@@ -25,7 +25,7 @@ public:
         return minLen;
     }
 };
-int main{
+int main (){
     Solution sol;
     vector<int> nums = {2,3,1,2,4,3};
     int target = 7;

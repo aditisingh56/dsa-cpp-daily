@@ -25,7 +25,7 @@ public:
         }
     }
 
-    // Return sum between left and right indices (inclusive)
+    
     int sumRange(int left, int right) {
         if (left == 0) return prefix[right];
         return prefix[right] - prefix[left - 1];
@@ -36,7 +36,7 @@ int main() {
     vector<int> nums = {2, 4, 1, 3, 7};  
     NumArray obj(nums);                 
 
-    // Test cases
+    
     cout << "Sum from 1 to 3: " << obj.sumRange(1, 3) << endl;  
     cout << "Sum from 0 to 4: " << obj.sumRange(0, 4) << endl;  
     cout << "Sum from 2 to 2: " << obj.sumRange(2, 2) << endl; 

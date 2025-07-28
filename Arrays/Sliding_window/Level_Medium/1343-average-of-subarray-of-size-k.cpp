@@ -36,4 +36,4 @@ int main() {
     cout << "Number of sub-arrays of size " << k << " with average >= " << threshold << ": " << result << endl;
     return 0;
 
-};
+}

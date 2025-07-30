@@ -32,4 +32,11 @@ bool isBadVersion(int version) {
     }
        
   
-};
+} 
+int main() {
+    Solution sol;
+    int n = 5; // Example: 5 versions
+    int firstBad = sol.firstBadVersion(n);
+    cout << "First bad version: " << firstBad << endl;
+    return 0;
+}

@@ -11,5 +11,5 @@ int main(){
     cout << "x < y : " << (x < y) << endl;   // Less than
     cout << "x >= y : " << (x >= y) << endl; // Greater than or equal to
     cout << "x <= y : " << (x <= y) << endl; // Less than or equal to
-
+return 0;
 }

@@ -9,7 +9,8 @@ class ArrayDemo{
 
         // Access
         cout << "Array elements are: " << endl;
-        for(int i = 0; i < 5; i++){
+        int n = sizeof(numbers)/sizeof(numbers[0]);
+        for(int i = 0; i < n; i++){
             cout << "Element at index " << i << ": " << numbers[i] << endl;
         }
 }

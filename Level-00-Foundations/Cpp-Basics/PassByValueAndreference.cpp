@@ -1,16 +1,17 @@
 #include<iostream>
 using namespace std;
-void PassByValue(int a){
+void PassByValue(int a){ // change to the cop[y of adress]
     cout<<"The value of a before: "<<a<<endl;
     a = a+10;
     cout<<"The value of a after: "<<a<<endl;
 
 }
-void PassByReference(int &b){
+void PassByReference(int &b){ // change to the same adfress 
     cout<<"The value of b before: "<<b<<endl;
     b = b+10;
     cout<<"The value of b after: "<<b<<endl;
-
+// when we do pass by value what we are doing is we are passing the cop[y of the value not the actil va;lue so the change happens in the cop[y of the va;ue not at the actual value and when we come out of the funvtion the roginal remain the same because the copy was changed not the original. 
+// but when we do pass by reference what we are doing is we are passing the actual value so the change happens in the actual value and when we come out of the function the original value is changed because the actual value was changed.]]
 } int main(){
     int x = 5;
     int y = 5;

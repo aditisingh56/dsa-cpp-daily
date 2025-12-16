@@ -25,6 +25,11 @@ void BitWiseConverter(int a, int b){
     // divide by 2
 
 }
+// you have to remmember is `~a' is 1's compliment. which meanns it flips all bits of a number.
+// and one more thing, 2's complument is 1's complimwnt +1  which is (~a +1) which is -(a+1))
+//~a is 1's complement (only bit flipping)
+// 2’s complement = (~a) + 1
+// (~a + 1) gives negative of the number
 
 int main(){
     cout << "Enter two numbers: ";

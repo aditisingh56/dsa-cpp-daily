@@ -7,14 +7,15 @@ int main(){
     s.push(20);
     s.push(30);
     s.push(50);
+    cout<<"Beforre swapping the size is "<<endl;
+        cout<<s.size()<<endl;
         while(!s.empty()){
             cout<<s.top()<<" ";
             s.pop();
         }
         // we can also swap two stacks
         cout<<endl;
-        cout<<"Beforre swapping the size is "<<endl;
-        cout<<s.size()<<endl;
+        
         stack<int> s2;
         swap(s, s2);
         cout<<"After swapping the size is "<<endl;

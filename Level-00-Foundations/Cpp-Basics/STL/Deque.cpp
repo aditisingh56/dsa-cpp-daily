@@ -19,5 +19,8 @@ for( auto it = d.begin(); it != d.end(); it++){
     cout<<*it<<" ";
 
 }
+ // here we can randomly acces like arrays, not in list this isn't possible.
+ cout<<"Random access of 2nd index element in deque is: "<<endl;
+ cout<<d[2]<<endl;
 return 0;
 }

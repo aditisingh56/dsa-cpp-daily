@@ -2,6 +2,11 @@
 using namespace std;
 #include<list> // a list is doubly linked which means each node has adress of previous and next node
 int main(){
+    // Are sequential containers are:
+    //  vectors
+    //  deque
+    //  list..... and more  
+
     list<int> lst;
     lst.push_back(10);
     lst.push_back(20);

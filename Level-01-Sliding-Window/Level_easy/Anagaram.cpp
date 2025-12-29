@@ -27,10 +27,10 @@ vector<int> findingAnagrams(string s, string p){
             if(mp.find(s[i]) != mp.end()){
                 
                 if(mp[s[i]] == 0){
-                    count++;
+                    count++;// this says if its frequncy is 0, it measn its count also will be 0. so we increse the count 
                 }
-                mp[s[i]]++;
-            }
+                mp[s[i]]++; // if the char at start of window is present in map, we increase its frequency by 1 as we are removing it from the window
+            }// like if the frequnecy have not becopme 0, it means w emight not have chnaged count. but we might have chnaged frequency. so we just increase frequency by 1
             i++;
         }
         j++;

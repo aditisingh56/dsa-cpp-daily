@@ -23,7 +23,7 @@ public:
 }
         return maxLen;
     }
-};
+};// this is nota optimal method to solve the problem , we are recomputing max and min again , agaim . here time complexity is O(n^2) as we have nested loops. optimal method is there in Level_Medium folder.
 int main() {
     Solution solution;
     vector<int> nums = {8, 2, 4, 7};

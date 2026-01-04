@@ -1,0 +1,12 @@
+while (j < n) {
+    add(nums[j]);
+
+    if (window < k)
+        j++;
+    else {
+        compute();
+        remove(nums[i]);
+        i++; j++;
+    }
+}
+// this is a boliler plate that is used in almost 90 percent of fixed sized window 

@@ -2,6 +2,10 @@
 #include<deque>
 #include<vector>
 using namespace std;
+// ### Problem Statement -239. Sliding Window Maximum
+// You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.
+
+// Return the max sliding window.
 
 //Now, here i will be listing the mistakes i did while solving this question for the first time and those are the things you ust keep in mind while solving siliar pattern. 
 class Solution {

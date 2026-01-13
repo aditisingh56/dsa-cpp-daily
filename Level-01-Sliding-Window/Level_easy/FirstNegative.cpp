@@ -25,7 +25,7 @@ class FirstNegativeInWindow {
                     result.push_back(arr[q.front()]);
                 } else {
                     result.push_back(0);   // no negative number in the window
-                }
+                } 
                     // if the index at the front is out of the window, remove it
                 if(!q.empty() && q.front() == i) {// if the index at the front of the queue is equal to the start of the window
                         q.pop();}

@@ -8,7 +8,7 @@
 // subsequence of array is a sequence that can be derived from the array by deleting some or no elements without changing the order of the remaining elements.
  //when subsequence is asked w eknow that we can skip elements but the order must be maintained.
  // so sliding window will not bw used here.
- 
+
 using namespace std;
 class Solution {
 public:
@@ -19,7 +19,7 @@ public:
             mp[value]++;
         }
         int ans= 0;
-        for( auto &it : mp){
+        for( auto &it : mp){ // this & is used to avoid copying of the entire map element, we just want to access it.
             int x = it.first;
                 if( mp.count(x+1) ){
                     ans = max(ans, mp[x] +mp[x+1]); // we dont explicitly amkle pairs of x and x+1, but mentally we are finding the frequency of x and x+1 whichever pair of this x, x+1 is more we take taht as answer. 

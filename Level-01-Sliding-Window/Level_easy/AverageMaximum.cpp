@@ -5,6 +5,7 @@
 
 // <!-- LeetCode Question Number-643 -->
 // ### Solution
+// this question i solved with two methods, both the methpods are there in the same folder.
 #include <iostream>
 #include <vector>
 using namespace std;
